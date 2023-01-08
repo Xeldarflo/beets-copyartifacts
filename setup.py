@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name="beets-copyartifacts3",
-    version="0.1.4",
+    version="0.1.5",
     description="beets plugin to copy non-music files to import path",
     long_description=readme,
     author='Adam Miller',
