@@ -65,7 +65,7 @@ class CopyArtifactsPlugin(BeetsPlugin):
         # Sanitize filename
         filename = beets.util.sanitize_path(os.path.basename(file_path))
         dirname = os.path.dirname(file_path)
-        file_path = os.path.join(dirname, filename)
+        file_path = os.path.join(dirname, filename).encode('utf-8')
 
         return file_path
 
