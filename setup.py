@@ -17,7 +17,7 @@ setup(
 
     packages=['beetsplug'],
     namespace_packages=['beetsplug'],
-    install_requires=['beets>=2.4.0'],
+    install_requires=['beets==2.5.1'],
 
     classifiers=[
         'Topic :: Multimedia :: Sound/Audio',
